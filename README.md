@@ -18,7 +18,7 @@ STEP3 :  Create AWS IAM User "Bash-user" Include  "S3FullAccess" in order to run
 
 STEP4 : Generate Access Keys and Secrete Key  of IAM User "Bash-User" and add in AWS Configure 
 
-STEP 5 : Create S3 Bucket with unique name and add it as value in varaible "S3bucket" 
+STEP 5 : Create S3 Bucket with unique name and add it as value in variable called  "s3bucket" 
 
 STEP 6:  add execute permission to script : chmod +x upload_backup_files_to_s3_bucket.sh
 
