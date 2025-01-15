@@ -2,11 +2,15 @@ Subject : backup_upload_To_S3Buckets
 
 STEP 1:  Require to install AWS  CLI  on ubuntu machine as following :
 
-sudo apt update
-sudo apt install unzip curl -y
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
+sudo apt update;
+
+sudo apt install unzip curl -y;
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip";
+
+unzip awscliv2.zip;
+
+sudo ./aws/install;
 
 STEP 2 : Create AWS IAM ROLE "Bash-role"  include  "S3FullAccess" and assoicate with EC2 Instance
 
