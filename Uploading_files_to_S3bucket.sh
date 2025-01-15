@@ -19,7 +19,7 @@ if [ -f "$Dest/$backupfiles" ]; then
 else
     echo "Your backup is being created..."
     tar -czvf "$Dest/$backupfiles" "$targetfile"  # Create the backup file
-    echo "Your backup was completed successfully: $Dest/$backupfiles"
+    echo "Your backup was completed successfully: $Dest/$backupfiles"get
 fi
 
 # Upload the backup file to S3 bucket
